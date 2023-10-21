@@ -10,7 +10,7 @@ class Solution:
                 ans = min(ans, r-l+1)
                 currsum -= nums[l]
                 l += 1
-            elif currsum < target:
+            else:
                 r += 1
                 if r == len(nums):
                     break
