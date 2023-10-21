@@ -8,7 +8,6 @@ class Solution:
         dummy = ListNode(0, head)
         x = dummy
         slow, fast = head, head
-        y = head.next
         while fast and fast.next:
             slow = slow.next
             fast = fast.next.next
