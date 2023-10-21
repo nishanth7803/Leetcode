@@ -4,7 +4,6 @@
 #         self.val = x
 #         self.next = None
 class Solution:
-class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
         h_set = set()
         curr = head
